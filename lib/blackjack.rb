@@ -66,6 +66,6 @@ def runner
   else 
     end_game(turn)
   end
-  
+  binding.pry
 end
     
