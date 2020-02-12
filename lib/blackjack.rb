@@ -34,7 +34,6 @@ def hit?(num)
   prompt_user
   turn = get_user_input
   if turn == 'h'
-    display_card_total(num)
     num += deal_card
   elsif turn == 's'
     num 
