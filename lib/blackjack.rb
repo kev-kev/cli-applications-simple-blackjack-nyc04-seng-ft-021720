@@ -56,6 +56,7 @@ def runner
   welcome 
   initial_total = initial_round
   turn = hit?(initial_total)
+  display_card_total(turn)
   unless turn > 21
     if turn == initial_total
       hit?(initial_total)
